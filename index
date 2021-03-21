@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">    
+</head>
+<body>
+    
+    <!--Menu-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/LOGO C.XAVI/logo.jpg">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"> 
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item active">
+                        <a class="nav-link" href="#">Página Inicial</a>
+                        
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="sobre.html">Sobre nós</a>    
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="#">Contacte-nos</a>    
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="#">Servicos</a>    
+                    </li>
+                    <li class="navbar-item ">
+                        <a class="nav-link" href="#">mais</a>    
+                    </li>
+                    
+
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!--Slides-->
+    <div id="slides" class="carousel slide container" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1" ></li>
+            <li data-target="#slides" data-slide-to="2" ></li>
+        </ul>
+        <div class="carousel-inner" id="slider">
+            <div class="carousel-item active">
+                <img src="img/slider/slide1.jpg">
+                <div class="carousel-caption">
+                    <h1 class="display-2">ClimaXavi</h1>
+                    <h3>Temos o melhor para o seu clima</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">
+                        Ver mais
+                    </button>
+                    <button type="button" class="btn btn-primary btn-lg">
+                        Nossos serviços
+                    </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/slide2.jpg">
+
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/slide3.jpg">
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!--Jumbotron-->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">
+                    A ClimaXavi é uma empresa de frio e climatização, situada em Angola-Luanda, ela fornece serviços de qualidade no ramo da climatização....
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-lg-3 col-xs-2">
+                <a href="#">
+                    <button type="button" class="btn btn-outline-secondary btn-lg">Sobre nós</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Welcome Section-->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">
+                        Sinta clima mais fresco de Angola
+                    </h1>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Magni doloribus veritatis, unde exercitationem ea quod beatae praesentium.
+                         Totam rerum nemo illum delectus amet iure itaque optio harum voluptatibus,
+                          quam maiores.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--######################################-->
+        <!--<div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>Facebook</h3>
+                    <p>Lorem ipsum dolor</p>
+                </div>
+                <hr class="my-4">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>Instagram</h3>
+                    <p>Lorem ipsum dolor</p>
+
+                </div>
+                <div class="col-xs-12  col-md-4">
+                    <i class="fas fa-code"></i>
+                    <h3>Instagram</h3>
+                    <p>Lorem ipsum dolor</p>
+
+                </div>
+
+            </div>
+            
+        </div>
+        -->
+        <!--###################################-->
+
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="col-lg-6">
+                    <h2>Temos o melhor para ti</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vel perspiciatis explicabo recusandae, ut ducimus id atque laborum harum non unde?
+                         Facere quaerat velit necessitatibus nemo magni maiores quia at! Sint.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vel perspiciatis explicabo recusandae, ut ducimus id atque laborum harum non unde?
+                         Facere quaerat velit necessitatibus nemo magni maiores quia at! Sint.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Vel perspiciatis explicabo recusandae, ut ducimus id atque laborum harum non unde?
+                         Facere quaerat velit necessitatibus nemo magni maiores quia at! Sint.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-primary">Mais</a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="img/slider/MaraDalva.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <!--##############Fixed backround###################-->
+        <figure>
+            <div class="fixed-wrap">
+                <div id="fixed">
+
+                </div>
+            </div>
+        </figure>
+        <!--#####################################################-->
+
+        <!--<button class="fun" data-toggle="collapse" data-target="#emoji">
+            Clique aqui
+        </button>
+        <div id="emoji" class="collapse">
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/em/em1.jpg">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/em/em2.jpg">
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img class="gif" src="img/em/em3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+         <!--#####################################################-->
+        <div class="container-fluid padding">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">O nosso team</h1>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container-fluid padding">
+            <div class="row padding">
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/team (1).jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Name</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae minima perferendis voluptatibus sint vitae reprehenderit temporibus! Cupiditate magni, sunt expedita provident natus, impedit ducimus
+                                 assumenda ipsam architecto distinctio quisquam sapiente!
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary">
+                                Perfil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/team (1).jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Name</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae minima perferendis voluptatibus sint vitae reprehenderit temporibus! Cupiditate magni, sunt expedita provident natus, impedit ducimus
+                                 assumenda ipsam architecto distinctio quisquam sapiente!
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary">
+                                Perfil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/team/team (1).jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Name</h4>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae minima perferendis voluptatibus sint vitae reprehenderit temporibus! Cupiditate magni, sunt expedita provident natus, impedit ducimus
+                                 assumenda ipsam architecto distinctio quisquam sapiente!
+                            </p>
+                            <a href="#" class="btn btn-outline-secondary">
+                                Perfil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        
+        <!--#####################################################-->
+       
+        <div class="container-fluid padding">
+            
+            <div class="row padding">
+               
+                <div class="col-lg-6">
+                    <h2>Nossos valorees</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur,
+                         adipisicing elit. Laborum ratione dolores exercitationem
+                          harum qui porro laudantium id ea eum, aspernatur numquam?
+                           Hic excepturi,
+                         laboriosam veritatis rerum tempora aperiam itaque beatae.
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="img/imagem2.jpg" id="img_vl" alt="" class="img-flluid">
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container-fluid padding">
+            <div class="row text-center padding">
+                <div class="col-12">
+                    <h2>Nossoas mídias sociais</h2>
+                </div>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></a>
+                <a href="#"><i class="fab fa-"> </i> </a>
+                <a href="#"><i class="fab fa-"> </i> </a>
+                <a href="#"><i class="fab fa-"> </i> </a>
+            </div>
+
+        </div>
+       
+        
+        <footer>
+            <div class="container-fluid padding">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img src="img/LOGO C.XAVI/appbar.social.facebook.variant.png">
+                        <hr class="ligh">
+
+                        <p>900000000000</p>
+                        <p>Email</p>
+                        <p>Addres</p>
+                        <p>Luanda,Angola</p>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <img src="img/LOGO C.XAVI/appbar.social.facebook.variant.png">
+                        <hr class="ligh">
+                        <p>900000000000</p>
+                        <p>Email</p>
+                        <p>Addres</p>
+                        <p>Luanda,Angola</p>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <img src="img/LOGO C.XAVI/appbar.social.whatsapp.png">
+                        <hr class="ligh">
+                        <p>900000000000</p>
+                        <p>Email</p>
+                        <p>Addres</p>
+                        <p>Luanda,Angola</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/util.js"></script>
+</body>
+</html>
